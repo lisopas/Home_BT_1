@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 1100px;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+}
+
+.logo {
+    margin: 0 0 10px 50px;
+}
+
+.animals {
+    float: right;
+    margin: 0 80px 10px 0;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 950px;
+    height: 310px;
+    background: #eee;
+    margin: 10px 40px 0 50px;
+    border-radius: 5px;
+}
+
+.big {
+    font-size: 50px;
+    padding: 60px 40px 0 40px;
+    height: 200px;
+}
+
+.small {
+    position: absolute;
+    font-size: 16px;
+    top: 380px;
+    left: 470px;
+}
+
+.girldog {
+    width: 270px;
+    height: 180px;
+    float: right;
+    margin: 40px 50px 90px 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.article {
+    margin: 30px;
+    width: 200px;
+}
+
+.article_maintext {
+    font-size: 15px;
+}
+
+.article_smalltext {
+    font-size: 12px;
+}
+
+.picture {
+    width: 200px;
+}
+
+.readmore {
+    color: #428bca;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.readmore:hover {
+    color: #b737ca;
+}
+
+.last {
+    font-size: 12px;
+    margin: 30px;
+}
